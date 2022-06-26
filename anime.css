@@ -1,0 +1,52 @@
+.item{
+    color:black;
+    height:100px;
+    width:100px;
+    background-color:rgba(64, 22, 218, 0.534);
+    border-radius: 50%;
+    border:solid 3px blue;
+    animation: ball;
+    animation-duration: 10s;
+    animation-delay: 5ms;
+    /* margin:auto; */
+    margin-top:100px;
+}
+@keyframes ball{
+    5%{
+        background-color: rgb(24, 182, 37);
+        margin-left:10px;
+      
+    }
+     10%{
+        background-color: rgb(235, 24, 8);
+         margin-left:50px;
+    }
+     20%{
+        background-color: rgb(231, 10, 194);
+         margin-left:100px;
+    }
+     50%{
+        background-color: rgb(16, 205, 230);
+         margin-left:300px;
+         /* margin-top:100px; */
+         transform: scale(2);
+    }
+     70%{
+        background-color: rgb(228, 15, 15);
+         margin-left:300px;
+    }
+    100%{
+        background-color: black;
+    }
+}
+/* body{
+    animation:body;
+}
+@keyframes body {
+    0%{
+        background-color: blue;
+    }
+    10%{
+background:linear-gradient(90deg,cyan)
+    }
+} */
